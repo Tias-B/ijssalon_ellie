@@ -16,4 +16,7 @@ def fooi_pp(bedrag, personen):
 b = int(input("Welk bedrag zit er in de fooienpot? "))
 p = int(input("Over hoeveel mensen moet de pot verdeeld worden? "))
 
+def som(dictionary):
+    return sum(dictionary.values())
+
 print(fooi_pp(b,p))
