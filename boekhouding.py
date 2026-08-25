@@ -12,8 +12,6 @@ inkomsten = {
 
 totaal_inkomsten = som(inkomsten)
 
-print(totaal_inkomsten)
-
 presenteer(inkomsten, totaal_inkomsten)
 
 with open('boekhouding.csv', 'w', newline='') as csvfile:
