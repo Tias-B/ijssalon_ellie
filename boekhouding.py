@@ -8,9 +8,6 @@ inkomsten = {
     "Waterijsjes-totaal" : 750
 }
 
-def som(dictionary):
-    return sum(dictionary.values())
+totaal_inkomsten = som(inkomsten)
 
-print(decoreer(som(inkomsten)))
-
-
+print(totaal_inkomsten)
